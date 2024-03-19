@@ -70,6 +70,8 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/system/halium/etc/ubuntu-touch-session.d/android.conf:system/halium/etc/ubuntu-touch-session.d/android.conf \
     $(DEVICE_PATH)/rootdir/system/halium/etc/apparmor.d/local/usr.bin.media-hub-server:system/halium/etc/apparmor.d/local/usr.bin.media-hub-server \
     $(DEVICE_PATH)/rootdir/system/halium/etc/default/usb-moded.d/device-specific-config.conf:system/halium/etc/default/usb-moded.d/device-specific-config.conf \
+    $(DEVICE_PATH)/rootdir/system/halium/etc/NetworkManager/conf.d/fix-ap-with-password.conf:system/halium/etc/NetworkManager/conf.d/fix-ap-with-password.conf \
+    $(DEVICE_PATH)/rootdir/system/halium/etc/NetworkManager/conf.d/.halium-overlay-dir:system/halium/etc/NetworkManager/conf.d/.halium-overlay-dir \
     $(DEVICE_PATH)/rootdir/system/halium/etc/init/bluetooth-touch-android.conf:system/halium/etc/init/bluetooth-touch-android.conf \
     $(DEVICE_PATH)/rootdir/system/halium/usr/share/bluetooth-touch/android.sh:system/halium/usr/share/bluetooth-touch/android.sh \
     $(DEVICE_PATH)/rootdir/system/halium/usr/share/apparmor/hardware/graphics.d/apparmor-easyprof-ubuntu_android:system/halium/usr/share/apparmor/hardware/graphics.d/apparmor-easyprof-ubuntu_android \
