@@ -77,7 +77,8 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/system/halium/usr/share/apparmor/hardware/graphics.d/apparmor-easyprof-ubuntu_android:system/halium/usr/share/apparmor/hardware/graphics.d/apparmor-easyprof-ubuntu_android \
     $(DEVICE_PATH)/rootdir/system/halium/usr/share/apparmor/hardware/video.d/apparmor-easyprof-ubuntu_android:system/halium/usr/share/apparmor/hardware/video.d/apparmor-easyprof-ubuntu_android \
     $(DEVICE_PATH)/rootdir/system/halium/usr/share/upstart/sessions/usensord.conf:system/halium/usr/share/upstart/sessions/usensord.conf \
-    $(DEVICE_PATH)/rootdir/system/halium/etc/deviceinfo/devices/halium.yaml:system/halium/etc/deviceinfo/devices/halium.yaml
+    $(DEVICE_PATH)/rootdir/system/halium/etc/deviceinfo/devices/halium.yaml:system/halium/etc/deviceinfo/devices/halium.yaml \
+    $(DEVICE_PATH)/rootdir/system/halium/etc/fscrypt.conf:system/halium/etc/fscrypt.conf
 
 PRODUCT_PACKAGES += \
     libubuntu_application_api \

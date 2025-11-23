@@ -3,3 +3,4 @@ suzu:
     - true
   VibrateDurationExtraMs:
     - 40
+  FilesystemEncryption: true
