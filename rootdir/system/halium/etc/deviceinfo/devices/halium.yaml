@@ -4,3 +4,4 @@ suzu:
   VibrateDurationExtraMs:
     - 40
   FilesystemEncryption: true
+  PulseaudioModulesDroid_ExtraCardArgs: "rate=44100"
